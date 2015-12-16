@@ -53,6 +53,9 @@ public class MyActivity extends Activity implements NavigationDrawerFragment.Nav
                 objFragment = new menu2_Fragment();
                 break;
             case 2:
+                objFragment = new upcomingEvent_Fragment();
+                break;
+            case 3:
                 objFragment = new menu3_Fragment();
                 break;
         }
@@ -70,6 +73,9 @@ public class MyActivity extends Activity implements NavigationDrawerFragment.Nav
                 mTitle = getString(R.string.title_section2);
                 break;
             case 3:
+                mTitle = getString(R.string.title_upcomingEvent);
+                break;
+            case 4:
                 mTitle = getString(R.string.title_section3);
                 break;
         }

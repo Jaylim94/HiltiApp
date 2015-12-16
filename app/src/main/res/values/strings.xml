@@ -5,6 +5,7 @@
     <string name="title_section1">News And Events</string>
     <string name="title_section2">Locate Us</string>
     <string name="title_section3">Log Out</string>
+    <string name="title_upcomingEvent">Upcoming Event</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
